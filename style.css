@@ -1,0 +1,80 @@
+*{margin:0; padding:0;}
+ul{list-style: none;}
+a{text-decoration: none; color:#000;}
+
+body{font-family: '맑은고딕';
+    font-size:13px;
+    line-height: 23px;
+    color:#666;
+}
+
+
+/*header1*/
+#header1{width:100%; background-color: #f2cb85;
+    text-align: center;
+}
+.logo{display:block; padding:20px 0;}
+
+/*header2*/
+#header2{width:100%; background-color: #000;
+height:72.99px; text-align: center;
+}
+.header2_inner{width:1180px; margin:0 auto;}
+
+.nav li{float:left;}
+.nav li a{display:block;  color:#f2cb85; 
+    padding:25px 58px;}
+.nav li a:hover{background: url(images/gnb_on.png)no-repeat center top;}
+
+/*banner*/
+#banner{width:100%; height:815px;
+        background:url(images/mb.png)no-repeat center top;
+       
+}
+#banner a{width:100%; height:815px; display:block;}
+
+
+
+/*contents*/
+#contents{width:1180px; margin:80px auto;
+    text-align: center; height:750px;}
+
+.padding{padding:20px 0 70px; }
+.coffee{height:400px;}
+.coffee li{float:left; width:380px;border:1px solid #ccc;
+      
+}
+
+.coffee li img{opacity:1; display:block;}
+.coffee li img:hover{opacity:0.5;}
+
+.coffee li:nth-child(2){margin:0px 15px;}
+
+.text p{padding:20px 0;color:#333;}
+
+/*contents2*/
+#contents2{width:100%; height:500px;
+        background: url(images/s1.jpg)no-repeat center top;
+        text-align: center;color:#fff;
+        animation: bannerimg 10s infinite ;
+    }
+    @keyframes bannerimg{
+        0%{background: url(images/s2.jpg)no-repeat center top;}
+        20%{background:url(images/s3.jpg)no-repeat center top;}
+        50%{background: url(images/s4.jpg)no-repeat center top;}
+        75%{background: url(images/s5.jpg)no-repeat center top;}
+        100%{background: url(images/s1.jpg)no-repeat center top;}
+    }
+
+h2{padding:250px 0 20px 0; border-bottom:1px solid #fff;margin-bottom:20px;}
+
+#contents3{padding:70px 0;text-align: center;}
+#contents4{padding:90px 0;text-align: center;
+        background: url(images/bg.jpg)no-repeat;
+}
+
+/*footer*/
+#footer{width:100%; height:200px; background: #333;}
+.footer_inner{width:1180px; margin:0 auto; padding:50px 0;}
+.footerlogo{float:left; width:254px;}
+.footertext{float:right; width:600px; text-align: right;}
